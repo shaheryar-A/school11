@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>UGI - Services</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Orbitron:wght@400;600&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="services.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar">
+    <div class="logo">
+      <span>Unique Group of Institutions</span>
+    </div>
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="location.html">Locations</a>
+      <a href="services.html">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="services-main">
+    <section class="hero-section">
+      <h1>What We Offer</h1>
+      <p>Explore our range of academic and co-curricular services</p>
+    </section>
+
+    <section class="services-container">
+      <div class="service-card">
+        <i class="fas fa-graduation-cap"></i>
+        <h2>Academic Excellence</h2>
+        <p>High-quality teaching with experienced faculty and modern classrooms.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-flask"></i>
+        <h2>Science & Computer Labs</h2>
+        <p>State-of-the-art labs designed to foster innovation and research.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-dumbbell"></i>
+        <h2>Sports & Fitness</h2>
+        <p>Facilities for cricket, football, gymnastics and regular sports events.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-user-tie"></i>
+        <h2>Career Counseling</h2>
+        <p>Guidance from experts to help students make informed career decisions.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-book-reader"></i>
+        <h2>Library & Research</h2>
+        <p>Rich library resources and digital access to journals and articles.</p>
+      </div>
+      <div class="service-card">
+        <i class="fas fa-users"></i>
+        <h2>Student Life</h2>
+        <p>Clubs, societies, debates, and leadership programs to grow beyond books.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Script -->
+  <script>
+    function toggleMenu() {
+      document.querySelector(".nav-links").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
